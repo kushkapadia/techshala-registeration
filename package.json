@@ -1,9 +1,10 @@
 {
-  "name": "VEventsWebApp",
+  "name": "veventswebapp",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node db.js",
     "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
